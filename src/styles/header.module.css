@@ -1,0 +1,27 @@
+.container{
+    padding: 2px;
+    position: sticky;
+    background-color: var(--secondary);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary);
+}
+.logo{
+    font-size: 18px;
+    list-style-type: none;
+    color: var(--fourth);
+}
+.logout_button{
+    list-style-type: none;
+    color: rgb(21, 21, 21);
+    opacity: 0.8;
+    padding-right: 15px;
+    cursor: pointer;
+}
+.logout_button:hover{
+    opacity: 1;
+    transition: 0.5s;
+}

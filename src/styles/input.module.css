@@ -1,0 +1,21 @@
+.container{
+    padding: 10px 30px;
+}
+.input{
+    width: 100%;
+    outline: none;
+    border: none;
+    opacity: 0.8;
+    font-size: 1rem;
+    border-bottom: 1px solid black;
+}
+.input:focus{
+    opacity: 1;
+    transition: 0.5s;
+}
+.input::placeholder{
+    font-size: 1rem;
+}
+.label{
+    font-size: 1rem;
+}
